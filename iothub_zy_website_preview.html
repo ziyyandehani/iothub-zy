@@ -1,0 +1,148 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:Arial,sans-serif;background:#0F1923;color:#fff;}
+.nav{background:#0F1923;padding:16px 32px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #1e2d3d;}
+.nav-logo{font-size:18px;font-weight:700;color:#1ABC9C;}
+.nav-logo span{color:#E94560;}
+.nav-links{display:flex;gap:24px;}
+.nav-links a{color:#aaa;text-decoration:none;font-size:13px;}
+.hero{padding:64px 32px;text-align:center;background:#0F1923;}
+.hero-badge{display:inline-block;background:#1e2d3d;color:#1ABC9C;font-size:11px;padding:6px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:1px;}
+.hero h1{font-size:36px;font-weight:700;line-height:1.2;margin-bottom:16px;}
+.hero h1 span{color:#1ABC9C;}
+.hero p{color:#aaa;font-size:15px;max-width:500px;margin:0 auto 32px;line-height:1.7;}
+.btn-group{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+.btn-primary{background:#1ABC9C;color:#fff;padding:12px 28px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:600;}
+.btn-secondary{background:transparent;color:#1ABC9C;padding:12px 28px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:600;border:1.5px solid #1ABC9C;}
+.stats{display:flex;justify-content:center;gap:48px;padding:32px;border-top:1px solid #1e2d3d;border-bottom:1px solid #1e2d3d;}
+.stat{text-align:center;}
+.stat-num{font-size:24px;font-weight:700;color:#1ABC9C;}
+.stat-label{font-size:12px;color:#aaa;margin-top:4px;}
+.section{padding:48px 32px;}
+.section-title{font-size:22px;font-weight:700;text-align:center;margin-bottom:8px;}
+.section-sub{text-align:center;color:#aaa;font-size:14px;margin-bottom:36px;}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:860px;margin:0 auto;}
+.service-card{background:#16213E;border:1px solid #1e2d3d;border-radius:12px;padding:24px;}
+.service-icon{font-size:28px;margin-bottom:12px;}
+.service-title{font-size:15px;font-weight:700;margin-bottom:8px;}
+.service-desc{font-size:12px;color:#aaa;line-height:1.6;margin-bottom:16px;}
+.service-price{font-size:13px;font-weight:700;color:#1ABC9C;}
+.free-badge{background:#0F3460;color:#1ABC9C;font-size:10px;padding:3px 10px;border-radius:20px;display:inline-block;margin-bottom:8px;}
+.templates{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:860px;margin:0 auto;}
+.template-card{background:#16213E;border:1px solid #1e2d3d;border-radius:12px;padding:20px;}
+.template-tag{background:#0F3460;color:#1ABC9C;font-size:10px;padding:3px 10px;border-radius:20px;display:inline-block;margin-bottom:10px;}
+.template-name{font-size:14px;font-weight:700;margin-bottom:6px;}
+.template-desc{font-size:12px;color:#aaa;line-height:1.5;margin-bottom:14px;}
+.btn-dl{background:#1ABC9C;color:#fff;font-size:12px;padding:8px 16px;border-radius:6px;text-decoration:none;display:inline-block;font-weight:600;}
+.cta{background:#16213E;padding:48px 32px;text-align:center;margin:0 32px;border-radius:16px;}
+.cta h2{font-size:22px;font-weight:700;margin-bottom:12px;}
+.cta p{color:#aaa;font-size:14px;margin-bottom:24px;}
+.footer{text-align:center;padding:24px;color:#555;font-size:12px;border-top:1px solid #1e2d3d;}
+.accent{color:#E94560;}
+</style>
+
+<div style="background:#0F1923;min-height:100vh;">
+
+<div class="nav">
+  <div class="nav-logo">IoT<span>Hub</span>_zy</div>
+  <div class="nav-links">
+    <a href="#">Layanan</a>
+    <a href="#">Template</a>
+    <a href="#">Tentang</a>
+    <a href="#" style="color:#1ABC9C;">DM Order</a>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="hero-badge">ESP32 • Arduino • IoT • Embedded</div>
+  <h1>Project IoT-mu <span>beres</span>,<br>tanpa drama dari nol</h1>
+  <p>Template siap pakai, jasa project, dan konsultasi IoT khusus mahasiswa teknik. Build smart, start simple.</p>
+  <div class="btn-group">
+    <a href="#" class="btn-primary">Lihat Template Gratis</a>
+    <a href="#" class="btn-secondary">DM untuk Order</a>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="stat-num">10+</div><div class="stat-label">Template gratis</div></div>
+  <div class="stat"><div class="stat-num">3–7</div><div class="stat-label">Hari selesai</div></div>
+  <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Mahasiswa teknik</div></div>
+</div>
+
+<div class="section">
+  <div class="section-title">Layanan</div>
+  <div class="section-sub">Dari template gratis sampai jasa project lengkap</div>
+  <div class="services">
+    <div class="service-card">
+      <div class="service-icon">📦</div>
+      <div class="free-badge">GRATIS</div>
+      <div class="service-title">Template Digital</div>
+      <div class="service-desc">Boilerplate ESP32, kode sensor, struktur folder project siap pakai.</div>
+      <div class="service-price">Rp 0 – 75rb</div>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🎓</div>
+      <div class="service-title">Jasa Project Skripsi</div>
+      <div class="service-desc">Bantu build prototype IoT untuk skripsi. Selesai 3–7 hari.</div>
+      <div class="service-price">Rp 150rb – 350rb</div>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏆</div>
+      <div class="service-title">Jasa Project Lomba</div>
+      <div class="service-desc">Build project IoT untuk hackathon dan kontes. Fast delivery.</div>
+      <div class="service-price">Rp 300rb – 700rb</div>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">💬</div>
+      <div class="service-title">Mentoring IoT</div>
+      <div class="service-desc">Bimbing dari nol sampai project jalan. Per sesi via WA/Zoom.</div>
+      <div class="service-price">Rp 75rb – 150rb/sesi</div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="background:#111c27;padding:48px 32px;">
+  <div class="section-title">Template Gratis</div>
+  <div class="section-sub">Download langsung dari GitHub, tanpa ribet</div>
+  <div class="templates">
+    <div class="template-card">
+      <div class="template-tag">ESP32</div>
+      <div class="template-name">WiFi Boilerplate</div>
+      <div class="template-desc">Koneksi WiFi + reconnect otomatis + status LED. Siap pakai.</div>
+      <a href="#" class="btn-dl">Download</a>
+    </div>
+    <div class="template-card">
+      <div class="template-tag">ESP32 + Sensor</div>
+      <div class="template-name">DHT22 + LCD</div>
+      <div class="template-desc">Baca suhu & kelembaban, tampilkan di LCD I2C 16x2.</div>
+      <a href="#" class="btn-dl">Download</a>
+    </div>
+    <div class="template-card">
+      <div class="template-tag">IoT Cloud</div>
+      <div class="template-name">Kirim data ke Telegram</div>
+      <div class="template-desc">Notifikasi otomatis ke bot Telegram dari sensor ESP32.</div>
+      <a href="#" class="btn-dl">Download</a>
+    </div>
+    <div class="template-card">
+      <div class="template-tag">Project</div>
+      <div class="template-name">Struktur Folder IoT</div>
+      <div class="template-desc">Template struktur folder project IoT yang rapi dan scalable.</div>
+      <a href="#" class="btn-dl">Download</a>
+    </div>
+  </div>
+</div>
+
+<div style="padding:48px 32px;">
+  <div class="cta">
+    <h2>Ada project yang perlu diselesaikan? <span class="accent">Ayo ngobrol.</span></h2>
+    <p>Konsultasi pertama gratis. Ceritain dulu projectnya via DM Instagram.</p>
+    <a href="#" class="btn-primary">DM @iothub_zy</a>
+  </div>
+</div>
+
+<div class="footer">
+  © 2025 IoTHub_zy by Ziyyan · Malang, Indonesia · ESP32 | Arduino | IoT
+</div>
+
+</div>
